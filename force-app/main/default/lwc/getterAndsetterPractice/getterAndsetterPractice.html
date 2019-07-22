@@ -1,0 +1,24 @@
+<template>
+    <lightning-input type="text" name="input1" value={message} label="Enter a date" onchange={handleChange}></lightning-input>
+    <template if:true={areDetailsVisible}>
+    <div class="demo-only" style="height:4rem">
+        <div class="slds-notify_container slds-is-relative">
+        <div class="slds-notify slds-notify_toast slds-theme_info" role="status">
+        <span class="slds-assistive-text">info</span>
+       
+        <div class="slds-notify__content">
+        <h2 class="slds-text-heading_small"> {message}
+        <a href="javascript:void(0);"></a>
+        </h2>
+        </div>
+        <div class="slds-notify__close">
+        <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
+      
+        <span class="slds-assistive-text">Close</span>
+        </button>
+        </div>
+        </div>
+        </div>
+        </div>
+        </template>
+</template>

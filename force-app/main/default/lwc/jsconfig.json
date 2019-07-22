@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/childLwc1": [
+                "childLwc1/childLwc1.js"
+            ],
+            "c/lightningWebComponent1": [
+                "lightningWebComponent1/lightningWebComponent1.js"
+            ],
+            "c/getterAndsetterPractice": [
+                "getterAndsetterPractice/getterAndsetterPractice.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
