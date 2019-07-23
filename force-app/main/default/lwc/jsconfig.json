@@ -11,6 +11,12 @@
             ],
             "c/lightningWebComponent1": [
                 "lightningWebComponent1/lightningWebComponent1.js"
+            ],
+            "c/ContactComponent": [
+                "ContactComponent/ContactComponent.js"
+            ],
+            "c/contactComponent": [
+                "contactComponent/contactComponent.js"
             ]
         }
     },
