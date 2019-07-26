@@ -2,7 +2,10 @@
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <componentInstances>
-            <componentName>home:heroChart</componentName>
+            <componentName>lightningWebComponent1</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>contactComponent</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>top</name>
@@ -35,7 +38,7 @@
             <componentName>getterAndsetterPractice</componentName>
         </componentInstances>
         <componentInstances>
-            <componentName>lightningWebComponent1</componentName>
+            <componentName>contactComponent</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>home:assistant</componentName>

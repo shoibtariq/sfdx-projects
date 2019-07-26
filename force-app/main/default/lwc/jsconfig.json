@@ -6,17 +6,20 @@
             "c/childLwc1": [
                 "childLwc1/childLwc1.js"
             ],
+            "c/contactComponent": [
+                "contactComponent/contactComponent.js"
+            ],
             "c/getterAndsetterPractice": [
                 "getterAndsetterPractice/getterAndsetterPractice.js"
             ],
             "c/lightningWebComponent1": [
                 "lightningWebComponent1/lightningWebComponent1.js"
             ],
-            "c/ContactComponent": [
-                "ContactComponent/ContactComponent.js"
+            "c/methodText": [
+                "methodText/methodText.js"
             ],
-            "c/contactComponent": [
-                "contactComponent/contactComponent.js"
+            "c/viewTreeSelected": [
+                "viewTreeSelected/viewTreeSelected.js"
             ]
         }
     },
