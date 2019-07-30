@@ -1,0 +1,24 @@
+<!--
+  @Component Name     : lwcDatatable.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 30/7/2019, 12:22:00 PM
+  @Modification Log   : 
+  ==============================================================================
+  Ver         Date                     Author      		      Modification
+  ==============================================================================
+  1.0    29/7/2019, 12:02:45 PM   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+    <lightning-accordion class="example-accordion" allow-multiple-sections-open="true"
+        onsectiontoggle={handleToggleSection} active-section-name="B">
+        <lightning-accordion-section name="A" label="Accordion Title A">
+            <lightning-datatable data={contacts.data} columns={columns} key-field="id" onrowselection={getSelectedName}
+                show-row-number-column min-column-width="20px" getselectedrows={getSelectedN} resize-step
+                sorted-by={LastName} is-loading>
+            </lightning-datatable>
+        </lightning-accordion-section>
+    </lightning-accordion>
+</template>

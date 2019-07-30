@@ -11,6 +11,30 @@
             ],
             "c/lightningWebComponent1": [
                 "lightningWebComponent1/lightningWebComponent1.js"
+            ],
+            "c/lwcDatatable": [
+                "lwcDatatable/lwcDatatable.js"
+            ],
+            "c/methodText": [
+                "methodText/methodText.js"
+            ],
+            "c/radioButtonGroup": [
+                "radioButtonGroup/radioButtonGroup.js"
+            ],
+            "c/viewTreeSelected": [
+                "viewTreeSelected/viewTreeSelected.js"
+            ],
+            "c/breadCumbsLWC": [
+                "breadCumbsLWC/breadCumbsLWC.js"
+            ],
+            "c/BreadsCrumb": [
+                "BreadsCrumb/BreadsCrumb.js"
+            ],
+            "c/breadsCrumb": [
+                "breadsCrumb/breadsCrumb.js"
+            ],
+            "c/LightningWebComponent1": [
+                "LightningWebComponent1/LightningWebComponent1.js"
             ]
         }
     },

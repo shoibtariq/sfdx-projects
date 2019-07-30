@@ -1,0 +1,21 @@
+<!--
+  @Component Name     : breadCumbsLWC.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 30/7/2019, 12:32:46 PM
+  @Modification Log   : 
+  ==============================================================================
+  Ver         Date                     Author      		      Modification
+  ==============================================================================
+  1.0    30/7/2019, 12:32:46 PM   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+    <lightning-breadcrumbs>
+        <template for:each={myBreadcrumbs} for:item="crumbs">
+            <lightning-breadcrumb key={crumbs.id} label={crumbs.label} name={crumbs.name} onclick={handleNavigateTo}>
+            </lightning-breadcrumb>
+        </template>
+    </lightning-breadcrumbs>
+</template>
